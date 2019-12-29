@@ -3,5 +3,5 @@
   "extensions":["ms-python.python"],
 
   // Run Bash script in .devcontainer directory
-  "postCreateCommand": "sudo bash ./setup/setup.sh > ~/post-create.log",
+  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh > ~/post-create.log",
 }

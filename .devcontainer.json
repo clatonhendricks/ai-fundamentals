@@ -1,0 +1,8 @@
+{
+  // Install python extension": [
+    "ms-python.python"
+  ],
+
+  // Run Bash script in .devcontainer directory
+  "postCreateCommand": "/bin/bash ./setup/setup.sh > ~/post-create.log",
+}

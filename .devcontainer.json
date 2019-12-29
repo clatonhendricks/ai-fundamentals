@@ -1,5 +1,6 @@
 {
-  // Install python extension": [
+  // Install python extension"
+  "extensions": [
     "ms-python.python"
   ],
 

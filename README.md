@@ -15,5 +15,9 @@ To complete the labs, you'll need the following:
     3. Sign in using the Microsoft account associated with your Azure subscription.
     4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
         - **Environment Name**: *A name for your environment - for example, **ai-environment**.*
-        - **Git Repository**: 
-
+        - **Git Repository**: GraemeMalcolm/ai-fundamentals
+        - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
+        - **Suspend idle environment after**: 30 minutes
+    5. Wait for the environment to be created, and then connect to it by clicking its name. This will open a browser-based instance of Visual Studio Code.
+    6. Wait for a minute or so until the files in this repo have been loaded into the environment, and the color scheme changes to a light background with dark text. This is your indication that you're ready to start the labs (you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**).
+    7. Note the numbered *.ipynb* files in the **Explorer** pane - these contain the lab exercises.

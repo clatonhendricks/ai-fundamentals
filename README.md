@@ -21,3 +21,13 @@ To complete the labs, you'll need the following:
     5. Wait for the environment to be created, and then connect to it by clicking its name. This will open a browser-based instance of Visual Studio Code.
     6. Wait for a minute or so until the files in this repo have been loaded into the environment, and the color scheme changes to a light background with dark text. This is your indication that you're ready to start the labs (you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**).
     7. Note the numbered *.ipynb* files in the **Explorer** pane - these contain the lab exercises.
+
+## Labs
+
+After you've completed the setup steps above, you can use your Visual Studio Online environment to complete the labs, which are based on the hypothetical *Adventure Works Cycles* - a cycle rental company operating in a large city.
+
+- **Lab 1: Introduction to Machine Learning**. In this lab, you'll earn about the foundation of modern AI - machine learning. You'll use Microsoft Azure Machine Learning to train a machine learning model that predicts how many bike rentals Adventure Works Cycles should expect on a given day, taking into account the day of the week, season, and weather conditions. You'll then publish the trained model as a service and use it from a simple client application.
+- **Lab 2: Computer Vision**. In this lab, you'll explore one of the core AI challenges - enabling an application to look at the world, and make sense of what it sees. You'll use Azure Cognitive Services to analyze images, build your own custom image classification model to identify motor vehicles and cycles in traffic, and detect cyclist's faces.
+- **Lab 3: Natural Language Processing**. *Coming soon...*
+- **Lab 4: Knowledge Mining**. *Coming soon...*
+- **Lab 5: Conversational AI**. *Coming soon...*

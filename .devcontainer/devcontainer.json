@@ -9,5 +9,5 @@
   },
 
   // Run Bash script to install Python packages
-  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh > ~/post-create.log",
+  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh > ~/post-create.log"
 }

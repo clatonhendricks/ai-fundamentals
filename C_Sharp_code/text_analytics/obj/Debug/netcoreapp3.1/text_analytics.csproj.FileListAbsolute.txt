@@ -1,0 +1,16 @@
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.csprojAssemblyReference.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.AssemblyInfoInputs.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.AssemblyInfo.cs
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.exe
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.deps.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.runtimeconfig.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.runtimeconfig.dev.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\text_analytics.pdb
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.csproj.CopyComplete
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\text_analytics\obj\Debug\netcoreapp3.1\text_analytics.pdb

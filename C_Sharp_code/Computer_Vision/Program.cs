@@ -11,14 +11,34 @@ namespace CSHttpClientSample
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint.
-        static string subscriptionKey = "YOUR_KEY";
+        static string subscriptionKey = "f859baf260804572ad78e47c5689608b";
 
-        static string endpoint = "YOUR_ENDPOINT";
+        static string endpoint = "https://westus.api.cognitive.microsoft.com/";
         
         // the Analyze method endpoint
         static string uriBase = endpoint + "vision/v2.1/analyze";
 
         static async Task Main()
+        {
+            // Create an Http Client to access the resources
+            HttpClient client = new HttpClient();
+
+            try
+            {
+                // Request headers.
+                client.DefaultRequestHeaders.Add(
+                    "Ocp-Apim-Subscription-Key", subscriptionKey);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("\n" + e.Message);
+                
+            }
+
+            await DescribeImage(client);
+        }
+
+        static async Task DescribeImage(HttpClient client)
         {
             // Get the path and filename to process from the user.
             Console.WriteLine("Analyze an image:");
@@ -29,13 +49,12 @@ namespace CSHttpClientSample
             {
                 // Call the REST API method.
                 Console.WriteLine("\nWait for the results to appear.\n");
-                await MakeAnalysisRequest(imageFilePath);
+                await MakeAnalysisRequest(imageFilePath, client);
             }
             else
             {
                 Console.WriteLine("\nInvalid file path");
             }
-            
         }
 
         /// <summary>
@@ -43,16 +62,10 @@ namespace CSHttpClientSample
         /// the Computer Vision REST API.
         /// </summary>
         /// <param name="imageFilePath">The image file to analyze.</param>
-        static async Task MakeAnalysisRequest(string imageFilePath)
+        static async Task MakeAnalysisRequest(string imageFilePath, HttpClient client)
         {
             try
             {
-                HttpClient client = new HttpClient();
-
-                // Request headers.
-                client.DefaultRequestHeaders.Add(
-                    "Ocp-Apim-Subscription-Key", subscriptionKey);
-
                 // Request parameters. A third optional parameter is "details".
                 // The Analyze Image method returns information about the following
                 // visual features:

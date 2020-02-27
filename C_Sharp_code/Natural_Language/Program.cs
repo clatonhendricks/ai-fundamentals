@@ -11,10 +11,10 @@ namespace Natural_Language
 
         // Use Language Understanding (LUIS) prediction endpoint key
         // to create authentication credentials
-        private static string predictionKey = "YOUR_LUIS_KEY";
+        private static string predictionKey = "YOUR_KEY";
 
         // Replace with your endpoint URL
-        private static string predictionEndpoint = "YOUR_PREDICTION_ENDPOINT";
+        private static string predictionEndpoint = "YOUR_ENDPOINT";
 
         // Replace with your App ID for the LUIS app you created
         private static string appId = "YOUR_LUIS_APPID";
@@ -64,7 +64,8 @@ namespace Natural_Language
             // Get client 
             using (var luisClient = CreateClient())
             {
-
+                
+                // Change the query text to test the various options presented in the unit text
                 var predictionRequest = new PredictionRequest
                 {
                     Query = "turn on the light",
@@ -76,7 +77,7 @@ namespace Natural_Language
                     slotName: "production",
                     predictionRequest,
                     verbose: false,
-                    showAllIntents: true,
+                    showAllIntents: false,
                     log: true);
             }
         }

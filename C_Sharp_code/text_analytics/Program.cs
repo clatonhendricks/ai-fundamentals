@@ -27,8 +27,6 @@ namespace text_analytics
             sentimentAnalysisExample(client);
             keyPhraseExtractionExample(client);
 
-            Console.Write("Press any key to exit.");
-            Console.ReadKey();
         }
 
         static TextAnalyticsClient authenticateClient()
@@ -44,11 +42,15 @@ namespace text_analytics
         static void sentimentAnalysisExample(ITextAnalyticsClient client)
         {
             Console.WriteLine();
+            Console.WriteLine("The first review");
+            Console.WriteLine();
             Console.WriteLine(reviewOne);
             var result1 = client.Sentiment(reviewOne, "en");
             Console.WriteLine($"Sentiment Score: {result1.Score:0.00}");
             Console.WriteLine();
 
+            Console.WriteLine("The second review");
+            Console.WriteLine();
             Console.WriteLine(reviewTwo);
             var result2 = client.Sentiment(reviewTwo, "en");
             Console.WriteLine($"Sentiment Score: {result2.Score:0.00}");

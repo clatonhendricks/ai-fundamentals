@@ -66,6 +66,7 @@ namespace AI_ML_Fundamentals
                 string jsonResult = (response.Content.ReadAsStringAsync().Result);
                 
                 // the returned result may contain backslash (\) and/or quotes (")
+                // at the beginning of the JSON response.
                 // we need to remove them for the deserialization to succeed
                 jsonResult = jsonResult.Replace(@"\", String.Empty);
                 jsonResult = jsonResult.Replace("\"", String.Empty);

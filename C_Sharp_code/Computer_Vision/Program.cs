@@ -11,9 +11,9 @@ namespace CSHttpClientSample
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint.
-        static string subscriptionKey = "f859baf260804572ad78e47c5689608b";
+        static string subscriptionKey = "YOUR_KEY";
 
-        static string endpoint = "https://westus.api.cognitive.microsoft.com/";
+        static string endpoint = "YOUR_ENDPOINT";
         
         // the Analyze method endpoint
         static string uriBase = endpoint + "vision/v2.1/analyze";
@@ -102,6 +102,7 @@ namespace CSHttpClientSample
 
                 // Asynchronously get the JSON response.
                 string contentString = await response.Content.ReadAsStringAsync();
+                // Console.WriteLine(contentString);
 
                 RootObject results = JsonConvert.DeserializeObject<RootObject>(contentString);
 
@@ -109,8 +110,8 @@ namespace CSHttpClientSample
                 Console.WriteLine();
 
                 // Display the JSON response.
-                //Console.WriteLine("\nResponse:\n\n{0}\n",
-                    //JToken.Parse(contentString).ToString());
+                Console.WriteLine("\nResponse:\n\n{0}\n",
+                    JToken.Parse(contentString).ToString());
             }
             catch (Exception e)
             {

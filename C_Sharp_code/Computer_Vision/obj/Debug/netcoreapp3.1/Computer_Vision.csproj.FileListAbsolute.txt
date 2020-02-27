@@ -1,0 +1,13 @@
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.csprojAssemblyReference.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.AssemblyInfoInputs.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.AssemblyInfo.cs
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.exe
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.deps.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.runtimeconfig.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.runtimeconfig.dev.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Computer_Vision.pdb
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.csproj.CopyComplete
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\Computer_Vision\obj\Debug\netcoreapp3.1\Computer_Vision.pdb

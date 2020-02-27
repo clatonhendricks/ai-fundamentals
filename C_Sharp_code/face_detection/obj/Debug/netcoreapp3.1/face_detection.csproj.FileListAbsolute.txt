@@ -1,0 +1,16 @@
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.csprojAssemblyReference.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.AssemblyInfoInputs.cache
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.AssemblyInfo.cs
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.exe
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.deps.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.runtimeconfig.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.runtimeconfig.dev.json
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\face_detection.pdb
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\Microsoft.Azure.CognitiveServices.Vision.Face.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.csproj.CopyComplete
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.dll
+C:\Users\gerryo\Documents\GitHub\ai-fundamentals\C_Sharp_code\face_detection\obj\Debug\netcoreapp3.1\face_detection.pdb

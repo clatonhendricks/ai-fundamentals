@@ -1,0 +1,14 @@
+{
+  "name": "computer_vision",
+  "version": "1.0.0",
+  "description": "Describe an image using the Computer Vision Cog Service",
+  "main": "computer_vision.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerry O'Brien",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^6.0.0"
+  }
+}

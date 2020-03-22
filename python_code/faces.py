@@ -69,3 +69,32 @@ def show_similar_faces(image_1_path, image_1_face, image_2_path, image_2_faces, 
             draw.rectangle(bounding_box, outline='red', width=5)
     plt.imshow(img2)
     plt.show()
+
+def show_recognized_faces(image_path, detected_faces, recognized_face_names):
+    import matplotlib.pyplot as plt
+    from PIL import Image, ImageDraw
+
+    # Open an image
+    img = Image.open(image_path)
+
+    # Create a figure to display the results
+    fig = plt.figure(figsize=(8, 8))
+
+    if detected_faces:
+        # If there are faces, how many?
+        num_faces = len(recognized_face_names)
+        caption = ' (' + str(num_faces) + ' faces recognized)'
+        # Draw a rectangle around each detected face
+        for face in detected_faces:
+            r = face.face_rectangle
+            bounding_box = ((r.left, r.top), (r.left + r.width, r.top + r.height))
+            draw = ImageDraw.Draw(img)
+            draw.rectangle(bounding_box, outline='magenta', width=5)
+            if face.face_id in recognized_face_names:
+                plt.annotate(recognized_face_names[face.face_id],
+                             (r.left, r.top + r.height + 15), backgroundcolor='white')
+            a = fig.add_subplot(1,1,1)
+            a.set_title(caption)
+
+    plt.axis('off')
+    plt.imshow(img)
